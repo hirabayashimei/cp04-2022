@@ -25,7 +25,7 @@
     }
     
     #time {
-        color: #ff0000;
+        color: orangered;
         font-size: 20px;
         text-align: center;
         position:absolute; top:340px; 
@@ -34,15 +34,15 @@
         width: 50%;
         margin: 0 auto;
     }
-   
-    
+
     #mycanvas {
-        color: #ffffff;
+        color: rgb(255, 255, 255);
         font-size: 40px;
         text-align: center;
         position:absolute; top:10px; 
         left:10px; right:10px;
     }
+   
     
     #btnA {
         background-color: yellow;
@@ -58,34 +58,29 @@
 
     #btnC {
         font-size: 30px;
-        position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        position:absolute; top:380px; left:70%; width:28%; 
+        height:60px;
+        
+
     }
     
     #btnD{
         font-size: 30px;
         position:absolute;
-        top:450px; left:4%;
+        top:450px; left:35%;
         width:40%;
         height:60px;
     } 
-    #btnE {
-        font-size: 30px;
-        position:absolute; top:450px; left:45%; width:25%; height:60px; 
-    }
-
-    #btnF {
-        font-size: 30px;
-        position:absolute; top:450px; left:71%; width:28%; height:60px; 
-    }
+   
 
     #minute {
         font-size: 30px;
-        position:absolute; top:600px; left:60px; width:80px; height:40px;   
+        position:absolute; top:550px; left:120px; width:80px; height:40px;   
     }
     
     #second {
         font-size: 30px;
-        position:absolute; top:600px; left:190px; width:80px; height:40px;   
+        position:absolute; top:550px; left:230px; width:80px; height:40px;   
     }
     
     input[type=number] {text-align: right;}
